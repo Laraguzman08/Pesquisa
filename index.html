@@ -13,7 +13,7 @@
 
     <div>
         <div class="texto">
-            <h3> 1. Conceitos de Formulários</h3>
+            <h2> 1. Conceitos de Formulários</h2>
             <p> - O que são formulários em HTML? <strong> São estruturas usadas para coletar dados do usuário em uma página web. 
                 Eles são definidos pela tag < form > e podem conter campos como caixas de texto, 
                 botões, seleções e outros elementos de interação. </strong> </p>
@@ -32,19 +32,45 @@
 
     <div>
         <div class="texto">
-            <h3> 2. Tag < form > </h3>
-            <p> Função: <strong> Essa tag é responsável por definir um formulário em HTML. 
+            <h2> 2. Tag < form > </h2>
+            <p> - Função: <strong> Essa tag é responsável por definir um formulário em HTML. 
                 Ela envolve todos os campos e permite o envio dos dados inseridos pelo usuário. </strong> </p>
+            <h3> Atributos principais: </h3>
+            <p> - action: <strong> Define para onde são enviados os dados do formulário quando um formulário é enviado. </strong> </p>
+            <p> - method (GET e POST): <strong> O atributo method recebe como valor o método HTTP que o formulário irá utilizar para enviar os dados. 
+                HTTP (HyperText Transfer Protocol) é o protocolo responsável pela comunicação entre o navegador e o servidor. 
+                Entre os métodos mais utilizados estão o GET e o POST: o GET envia os dados pela URL, sendo menos seguro e mais utilizado em buscas, 
+                enquanto o POST envia os dados de forma mais segura, sem exibi-los na URL, 
+                sendo utilizado em situações como login e cadastro. </strong> </p>
+            <p> Como funciona o envio de dados? <strong> O envio de dados em um formulário HTML ocorre quando o usuário preenche os campos 
+                (como < input >, < textarea > e < select >) e clica no botão de envio. 
+                Nesse momento, as informações são coletadas e enviadas para um servidor, arquivo ou script definido no atributo action. 
+                Esse processo é controlado pelos atributos da tag < form >, que determinam para onde os dados serão enviados e 
+                como isso será feito (GET ou POST). </strong> </p>
+        </div>
+        <div class="flex">
+            <a href="https://liag.ft.unicamp.br/act/2022/06/12/aula-5-oficina-html-5/">
+                <img class="img_form2" src="assets/código_form.png" alt="Código usando <form>">
+            </a>
+            <h4> Exemplo de código de um formulário HTML, onde a tag < form > define o envio de dados (com action e method="POST"), 
+                enquanto os campos < input > e < label > permitem a entrada de informações do usuário, 
+                que são enviadas ao servidor ao clicar no botão de envio. </h4>
         </div>
     </div>
+
 
     <div>
         <div class="texto">
             <h3> - Referências - </h3>
             <a href="https://www.ibm.com/docs/pt-br/cics-ts/6.x?topic=concepts-html-forms"> 
-            Formulários HTML - Documentação da IBM </a>
+                Formulários HTML - Documentação da IBM </a>
             <a href="https://www.w3schools.com/tags/tag_form.asp"> 
-            Tag de formulário HTML (W3School) </a>
+                Tag de formulário HTML (W3School) </a>
+            <a href="https://www.alura.com.br/artigos/o-que-e-html-suas-tags-parte-4-elementos-formulario?srsltid=
+            AfmBOopmSOitn3AArl2LeDDzTBFvnjDAFsDUQEvwNUkp78dTOboKub12#form"> Elementos de Form em HTML | Alura </a>
+            <a href="https://www.alura.com.br/artigos/diferencas-entre-get-e-post?srsltid=AfmBOoqcVXCvcIQWBZ_
+            AH_Pp8MP9BZ67gAoCVhzkKK7GIi1vvTvzHmIM"> HTTP GET vs POST | Alura </a>
+
         </div>
     </div>
     
